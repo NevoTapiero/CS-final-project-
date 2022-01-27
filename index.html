@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  </head>
+ 
+  <body>
+    <nav> 
+      <label class="logo">MovieToSee </label>
+      <img src="movieclapper2.png" allign="top" height="80" width="80" id="lol">
+      <ul>
+
+        <li><a tclass="acive" href="index.html">Home</a></li>
+
+
+        <li><a href="#">Contact
+          <ul>
+            <li><a href="https://instagram.com/moviestoseee?utm_medium=copy_link">Instagram</a></li>
+          </ul>  
+        </a></li>
+
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+
+    </nav>
+
+    <br>
+    <br>
+
+    <div class = "container">
+      <div class ="row">
+        <div class = "col-sm-12">
+
+          <div id="my-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- dot nav -->
+            <ol class="carousel-indicators">
+              <li data-target="#my-slide" data-slide-to= "0" class="active"></li>
+              <li data-target="#my-slide" data-slide-to= "1"></li>
+              <li data-target="#my-slide" data-slide-to= "2"></li>
+              <li data-target="#my-slide" data-slide-to= "3"></li>
+              <li data-target="#my-slide" data-slide-to= "4"></li>
+
+            </ol>
+
+                  <!-- wrappers for slides -->
+            <div class = "carousel-inner" role="listbox">
+
+              <div class ="carousel-item active">
+                <img src="arctic.jpeg" class="img-fluid" alt="Responsive image">
+              </div>
+
+              <div class = "carousel-item">
+                <img src="pictures/carousel/carousel1.jpeg" class="img-fluid" alt="oscar image">
+              </div>
+
+              <div class = "carousel-item">
+                <img src="pictures/carousel/carousel2.jpeg" class="img-fluid" alt="marvel image">
+              </div>
+
+                  
+              <div class = "carousel-item">
+                <img src="pictures/carousel/carousel3.jpeg" class="img-fluid" alt="anime image">
+              </div>
+
+              <div class = "pictures/carousel/carousel-item">
+                <img src="pictures/carousel/carousel4.jpeg" class="img-fluid" alt="gf image">
+              </div>
+
+            </div>
+
+            <!-- next and prev btn -->
+            <!-- left -->
+            <a class="carousel-control-prev" href="#my-slide" role= "button" data-slide = "prev">
+              <span class= "carousel-control-prev-icon" aria-hidden="true">
+              </span>
+            </a>
+
+            <a class="carousel-control-next" href="#my-slide" role= "button" data-slide = "next">
+              <span class= "carousel-control-next-icon" aria-hidden="true">
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div class="container">
+      <a href="genreanimation.html">
+        <button id="Animation" onclick='setGenre(this.id)'>Animation</button>
+      </a> 
+      <a href="genrehorror.html">
+        <button id="horror" onclick='setGenre(this.id)'>Horror</button>
+      </a> 
+      <a href="genreromance.html">
+        <button id = "romance" onclick='setGenre(this.id)'>Romance</button>
+      </a>
+      <a href="genreanime.html">
+        <button id="anime" onclick='setGenre(this.id)'>Anime</button>
+      </a>
+      <a href="genremusical.html">
+        <button id="musical" onclick='setGenre(this.id)'>Musical</button>
+      </a>
+      <a href="genre.html">
+        <button id="action" onclick='setGenre(this.id)'>Action</button>
+      </a>
+      <a href="genre.html">
+        <button id="comedy" onclick='setGenre(this.id)'>Comedy</button>
+      </a>
+      <a href="genre.html">
+        <button id="fantasy" onclick='setGenre(this.id)'>Fantasy</button>
+      </a>
+      <a href="genre.html">
+        <button id="drama" onclick='setGenre(this.id)'>Drama</button>
+      </a>
+      <a href="genre.html">
+        <button id="marvel" onclick='setGenre(this.id)'>Marvel</button>
+      </a>
+      <a href="genre.html">
+        <button id="sci-fi" onclick='setGenre(this.id)'>Sci-fi</button>
+      </a>
+      <a href="genre.html">
+        <button id="crime" onclick='setGenre(this.id)'>Crime</button>
+      </a>
+      <a href="genre.html">
+        <button id="adventure" onclick='setGenre(this.id)'>Adventure</button>
+      </a>
+      <a href="genre.html">
+        <button id="mystery" onclick='setGenre(this.id)'>Mystery</button>
+      </a>
+      <a href="genre.html">
+        <button id="christmas" onclick='setGenre(this.id)'>Christmas</button>
+      </a>
+      <a href="genre.html">
+        <button id="family" onclick='setGenre(this.id)'>Family</button>
+      </a>
+      <a href="genre.html">
+        <button id="teen" onclick='setGenre(this.id)'>Teen</button>
+      </a>
+
+    </div>
+  
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    
+
+
+  </body>
+</html>
